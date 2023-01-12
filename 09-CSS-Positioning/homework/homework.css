@@ -58,8 +58,32 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
     display: flexbox;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: rgb(199, 130, 231);
+    background-color: rgba(199, 130, 231, 0.308);
     align-items: center;
     flex-direction: column;
 
+}
+#elementoUno {
+    color: rgba(13, 14, 14, 0.949);
+    background-color: rgba(217, 39, 175, 0.394);
+    border: solid; 
+    justify-content: center;
+}
+#elementoDos {
+    color: rgba(13, 14, 14, 0.949);
+    background-color: rgba(217, 39, 175, 0.394);
+    border: solid; 
+    justify-content: center;
+}
+#elementoTres {
+    color: rgba(13, 14, 14, 0.949);
+    background-color: rgba(217, 39, 175, 0.394);
+    border: solid; 
+    justify-content: center;
+}
+#elementoCuatro {
+    color: rgba(13, 14, 14, 0.949);
+    background-color: rgba(217, 39, 175, 0.394);
+    border: solid; 
+    justify-content: center;
 }
