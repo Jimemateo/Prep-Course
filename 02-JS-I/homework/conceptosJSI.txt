@@ -1,0 +1,49 @@
+# Variable: es una "caja" donde se guarda información, a la cual debemos asignarle un nombre.
+Su valor puede ir cambiando.
+Ej: 
+var numero = 8
+
+# String: es una cadena de caracteres.
+Ej:
+string = "Hola"
+string = "34"
+string = "hello"
+
+# Funciones: son un conjunto de instrucciones que permite ralizar una tarea específica o 
+calcular un valor. Las funciones agrupan un código, y lo guardan en el lugar. Deben tener 
+un inicio y un final.
+Tienen un nombre y argumentos que la conforman, y pueden devolver un valor con una respuesta.
+Ej:
+>> funtion suma (a,b) {      //a y b son los argumentos de la funcion llamada SUMA
+      return a + b 
+}
+>> suma (1 , 2) 
+< 3
+
+# Declaraciones IF: 
+Éstas sentencias nos indican que lo que se encuentre dentro de la FUNCIÓN se va a ejecutar
+si la condición se cumple, devolviendo un mensaje que indique que que ésto está 
+sucediendo, u otro mensaje si sucede lo contrario, es decir, si la condición no se cumple. 
+
+Ej:
+
+>> funtion puedeManejar (edad) {
+    if (edad > 18) {   
+    return true;
+   } 
+    return false;
+}
+// Si la edad ingresada es mayor a 18, devolverá un mensaje indicando TRUE, si la edad ingresada 
+igual o menor a 18, devolverá un mensaje indicando FALSE.
+
+# Valores Booleanos:
+Son aquellos valores que solo pueden dar como resultado Verdadero ó Falso, es decir, 
+TRUE or FALSE. 
+Datos que son forzados a verdaderos: 
+TRUE
+1
+" " 
+Datos que son forzados a falsos:
+FALSE
+0
+""/''

@@ -1,0 +1,14 @@
+# For: es un tipo de bucle que se ejecutará hasta tanto se cumpla la condición 
+     que le indicamos dentro del mismo. 
+     Se deberá definir una variable (var), la condición que determine hasta 
+     cuando se ejecutará el bucle for, y como irá pasando la variable, es decir, 
+     ésta deberá ir aumentando/disminuyendo según como lo indiquemos. 
+
+# Operadores Lógicos:
+Son aquellos que combinan dos valores booleanos y devuelven un resultado verdadero o 
+falso. 
+&&: representa una conjunción / Y / AND: requiere de 2 valores verdaderos para ser
+ verdadera/True.
+||: disyunción / o / or: requiere de al menos un valor verdadero para ser verdadera. En 
+caso de que los dos valores sean falsos, resultará falsa.
+!: negación / not: niega el valor. En caso de ser !True= lo convertirá en False, y viceversa.
