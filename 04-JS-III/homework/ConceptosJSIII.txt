@@ -1,0 +1,36 @@
+* Arrays: son una lista de elementos ordenados. Los arreglos aceptan todo tipo de datos 
+(numeros, strings, valores booleanos, etc ), incluso pueden tener dentro de si un elemento
+que sea un arreglo, o una función. 
+
+Se definen utilizando corchetes [ ].
+
+Para definir un arreglo podemos simplemente colocar la variable y definir los elementos 
+dentro del array separados entre si por una coma. Ej:
+
+>> var lista = [1,2,3, 'hola', 'chau'];
+
+O podemos crear un arreglo vacio y luego ir añadiendo elementos en él:
+
+>> var lista =[];
+
+Para medir la cantidad de elementos que tiene el array, podemos utilizar el comando: lenght.
+
+>> array.lenght
+
+Para agregar elementos en el última posición del arreglo, utilizamos PUSH.
+
+>> lista.push [1]
+
+Ésto hará que se agregue el elemento [1], en la última posición del array Lista. 
+
+Para eliminar elementos ubicados en la última posición del arreglo, utilizamos POP.
+Ésto nos mostrará el último elemento y luego lo eliminará de forma permanente.
+
+>> lista.pop [1]
+
+Si quisieramos agregar un elemento en la primera posición de nuestro array, utilizaremos 
+UNSHIFT. Y para eliminar un elemento en la primera posición de la matriz, utilizaremos 
+SHIFT.
+
+Para recorrer un arreglo, podemos utilizar un bucle FOR o un bucle WHILE. 
+
