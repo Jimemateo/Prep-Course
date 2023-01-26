@@ -1,0 +1,56 @@
+	* Objetos:
+    Son una estructura de datos que tienen un nombre y están asociados a un valor.
+    Éstos datos se determinan como Propiedades, las cuales contienen un nombre (o clave)
+    y un valor (o Key value).
+    Los objetos pueden contener string, numeros, funciones, arreglos, etc. dentro de sí.
+    Ej: 
+    var objeto = {
+        propiedad1: 'valor1',
+        propiedad2: 'valor2',
+    }
+
+	* Propiedades:
+    Como mencionamos anteriormente, las propiedades se designan con un nombre (o clave) 
+    y un valor que son únicos para cada propiedad de cada objeto, lo cual nos permitirá
+    acceder a la información que contienen. 
+    Ej:
+    var jime ={
+        nombre: 'Jime',             //propiedad
+        apellido: 'Mateo',         //propiedad
+        edad: 34,                  //propiedad
+        saludar: function (){
+            conlose.log ('Hola Jime');
+        }
+    }
+
+
+	* Métodos:
+    Las funciones guardadas dentro de un objeto, se denominan, Métodos. 
+    Ej: siguiendo con el ejemplo anterior:
+      var jime ={
+        nombre: 'Jime',             //propiedad
+        apellido: 'Mateo',         //propiedad
+        edad: 34,                  //propiedad
+        saludar: function (){            //funcion dentro de un objeto: Métodos
+            conlose.log ('Hola Jime');
+        }
+    }
+
+
+	* Bucle `for…in`:
+    Los objetos no tienen indices (como los arreglos), por lo cual, cuando necesitemos 
+    iterar dentro de un objeto, utilizaremos un bucle FOR ... IN. Ésto nos permitirá 
+    ir iterando dentro de cada clave del objeto hasta recorrer todas las claves 
+    contenidas. 
+
+
+
+	* Notación de puntos vs notación de corchetes:
+    Existen dos maneras de acceder a las propiedades:
+    
+    BRACKET NOTATION: casi siempre se usan con variables. Nos permite acceder a la propiedad
+    cuando el valor asignado es la misma es desconocido.
+
+    DON´T NOTATION: se coloca el nombre (clave) seguido de un punto (.) y luego la propiedad a la que 
+    estamos queriendo acceder. Siempre se coloca una propiedad luego del punto, no puede ser nunca 
+    una variable. Se utiliza cuando conocemos el valor que guarda la propiedad.  
