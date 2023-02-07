@@ -1,0 +1,11 @@
+Prototype:
+Llamamos prototype a una forma única de establecer un método una vez y dar acceso a cada objeto
+de esa clase a ese método. Mediante la utilización de este mecanismo, los objetos heredan características 
+entre sí. Un objeto en JavaScript tiene otro objeto, llamado prototyte. Cuando le pedimos a un objeto una 
+propiedad que no tiene, la busca en su prototipo.
+
+Constructors (de Clases): 
+Es un método especial que nos permite crear e inicializar los objetos derivados de una nueva instancia de una
+ clase. El método constructor recibirá como parámetro la propiedad o las propiedades, esenciales para el 
+ funcionamiento de la clase. Esto significa que lo indispensable de una clase siempre va a estar dentro de
+ su constructor, haciendo de este un elemento primordial que va a existir desde la creación de la clase.
